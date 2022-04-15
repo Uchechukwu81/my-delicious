@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Raleway'  sans-serif;
+}
+#banner{
+    font-family: 'Dancing Script', cursive;
+}
+a{
+    text-decoration: none !important;
+}
+#topbar{
+    background-color: seagreen;
+    width: 100%;
+    background-size: cover;
+    /* height: 10vh; */
+}
+.green{
+    display: flex;
+}
+.green .left{
+    margin-top: 8px;
+}
+.green .left a{
+    color: white;
+}
+.green .left a:hover{
+    color: black;
+}
+.fa:hover{
+    color: white;
+}
+
+.at{
+    margin-left: 10px;
+}
+.green .right{
+    display: flex;
+    /* width: 100%; */
+    text-align: right !important;
+    margin-left: auto;
+    /* flex-grow: 1; */
+}
+.green .right ul{
+    margin-top: 8px;
+}
+@media (max-width: 470px){
+    .green .right ul li{
+        display: inline-flex;
+        text-align: right;
+        color: white;
+        letter-spacing: 1rem;
+        float: left;
+        justify-content: space-evenly;
+    }
+    .green .left a{
+        color: white;
+        display: none;
+    }
+    }
+    #topbar{
+        background-color: seagreen;
+        width: 100%;
+        background-size: cover;
+    }
+}
+@media (max-width: 370px){
+    .english{
+        color: white;
+        margin-left: 20px;
+        padding: .3rem 1rem 0 1rem;
+        border-radius: 70px;
+        /* display: none; */
+    }
+    #topbar{
+        background-color: seagreen;
+        width: 100%;
+        background-size: cover;
+    }
+}
+.green .right ul{
+    display: inline-flex;
+    color: white;
+}
+.green .right ul li{
+    display: inline-flex;
+    text-align: right;
+    color: white;
+    letter-spacing: 1rem;
+}
+.green .right ul li:hover{
+    display: inline-flex;
+    text-align: right;
+    color: black;
+    letter-spacing: 1rem;
+}
+.english{
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.english{
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.right .english:hover{
+    color: #6abf6a;
+    background-color: black;
+}
+#header{
+    background-color: #020233;
+    top: fixed;
+}
+.nav{
+    display: flex;
+}
+.nav-logo{
+    width: 130px;
+    margin-left: 40px;
+    font-weight: 4rem;
+    padding-top: 15px;
+}
+.navbar{
+    display: inline-flex !important;
+}
+.navbar ul{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.navbar ul li a{
+    color: white;
+    margin-left: -10px;
+}
+.search a{
+    color: white !important;
+}
+.search i{
+    border: none;
+    border-radius: none;
+    color: white;
+}
+.navbar .image{
+}
+.navbar span{
+    color: white;
+    margin-left: 5px;
+}
+#banner{
+
+}
+.background{
+    background-image: url(/assets/img/slice-crispy-pizza-with-meat-cheese.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-contents{
+    text-align: center;
+    padding-top: 60px;
+    text-transform: capitalize;
+    height: 100vh;
+}
+.banner-contents h1{
+    color: white;
+    font-weight: 5rem;
+    text-transform: uppercase;
+}
+.banner-contents h2{
+    color: green;
+    font-weight: 5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner-contents h3{
+    color: white;
+    font-weight: 5rem;
+    margin-top: 10px;
+}
+.banner-contents p{
+    color: white;
+    font-weight: 5rem;
+    margin-top: 10px;
+}
+.banner-contents a{
+    color: white;
+    font-weight: 5rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    background-color: #6abf6a;
+    padding: .5rem 1rem;
+}
+.banner-contents a:hover{
+    color: green;
+    font-weight: 5rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    background-color: white;
+    padding: .5rem 1rem;
+}
+.contentt{
+    justify-items: auto;
+}
+.contentt p{
+    cursor: pointer;
+}
+.contentt p:hover{
+    cursor: pointer;
+    color: green;
+}
+#three-images{
+    height: 35vh;
+    background-color: #c8f1ff;
+}
+
+#three-images .three .one{
+    display: flex !important;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 15px;
+    text-transform: capitalize;
+    font-size: large;
+    transition: .3s;
+}
+#three-images .three .one:hover{
+    transform: scale(1.05);
+}
+#three-images .three .two{
+    display: flex !important;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 15px;
+    text-transform: capitalize;
+    font-size: large;
+    transition: .3s;
+}
+#three-images .three .two:hover{
+    transform: scale(1.05);
+}
+#three-images .three .three{
+    display: flex !important;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 15px;
+    text-transform: capitalize;
+    font-size: large;
+    transition: .3s;
+}
+#three-images .three .three:hover{
+    transform: scale(1.05);
+}
+.three img{
+    width: 180px;
+    height: 150px;
+    margin-top: -110px;
+}
+.three a{
+    color: green;
+    font-weight: bold;
+}
+.three a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
